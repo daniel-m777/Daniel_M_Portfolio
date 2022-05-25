@@ -1,4 +1,4 @@
-# Daniel_M_Portfolio
+# My Portfolio
 A portfolio of projects that I've worked on relating to data science and machine learning.
 
 ## [Video Game Review Summarization](https://github.com/daniel-m777/Video_Game_Review_Summarization)
