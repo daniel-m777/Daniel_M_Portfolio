@@ -17,7 +17,7 @@ Now we have our predicted recommendation label from our selected logistic regres
 ![predicted label](https://github.com/loriylo/video_game__review_NLP/blob/main/images/game%20review%20prediction.png)
 
 ## [Image Colorization](https://github.com/daniel-m777/image_colorization)
-For this project, we decided to tackle the challenge of training a model to colorize black and white photos. For our dataset, we used this landscape dataset from Kaggle. For the architecture of the model, we based it on the CNN model from this [paper](https://arxiv.org/pdf/1603.08511.pdf). We will go through the code and describe the process in detail. To start, the following code demonstrates how we will be working with the LAB colorspace. The input for our model is the L channel, which is the luminance and ranges from 0-100 values. The output for our model are the ab channels, which represent different spectrum ranges (a is red-green, b is yellow-blue) with values ranging from -128-127.
+For this project, we decided to tackle the challenge of training a model to colorize black and white photos. For our dataset, we used this landscape dataset from Kaggle. For the architecture of the model, we based it on the CNN model from this [paper](https://arxiv.org/pdf/1603.08511.pdf). The following code demonstrates how we worked with the LAB colorspace. The input for our model is the L channel, which is the luminance and ranges from 0-100 values. The output for our model are the ab channels, which represent different spectrum ranges (a is red-green, b is yellow-blue) with values ranging from -128-127.
 
 ![Lab colorspace](https://github.com/daniel-m777/image_colorization/blob/main/images/lab%20colorspace.png)
 
